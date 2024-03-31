@@ -1,0 +1,39 @@
+body {
+    background-color: #020e26;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+p {
+    font-size: 16px;
+    position: relative;
+    top: -15px;
+}
+
+button {
+    font-size: 30px;
+    width: 100px;
+    height: 50px;
+    position: fixed;
+    bottom: 15px;
+    right: 25px;
+    border-width: 4px;
+    color: white;
+    border-color: #4e6096;
+    font-weight: bold;
+    border-radius: 42px;
+    background: linear-gradient(#7892c2, #4e6096);
+    cursor: pointer;
+}
+
+button:hover {
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+button:not(.top) {
+    display: none;
+}
